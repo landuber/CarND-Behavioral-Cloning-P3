@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/model.png "Model Visualization"
 [image2]: ./examples/modelsummary.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
+[image3]: ./examples/loss_graph.png "Loss graph"
 [image4]: ./examples/placeholder_small.png "Recovery Image"
 [image5]: ./examples/placeholder_small.png "Recovery Image"
 [image6]: ./examples/placeholder_small.png "Normal Image"
@@ -113,3 +113,7 @@ After the collection process, I had 7803 number of data points. I then preproces
 I finally randomly shuffled the data set and put 30% of the data into a validation set. 
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 6 as evidenced by the parameters used in the fit function. I used an adam optimizer so that manually training the learning rate wasn't necessary.
+
+Below is a graph of the training graph as it relates to loss on the training and validation.
+
+![][image3]

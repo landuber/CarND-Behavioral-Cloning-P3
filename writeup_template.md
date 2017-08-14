@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
+[image1]: ./examples/model.png "Model Visualization"
+[image2]: ./examples/modelsummary.png "Grayscaling"
 [image3]: ./examples/placeholder_small.png "Recovery Image"
 [image4]: ./examples/placeholder_small.png "Recovery Image"
 [image5]: ./examples/placeholder_small.png "Recovery Image"
@@ -91,6 +91,11 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 ####2. Final Model Architecture
 
 The final model architecture (model.py lines 115-127) consisted of a convolution neural network with convolutional layers and fully connected layers.
+
+Below are summary and visualization of the architecture.
+
+![][image1]
+![][image2]
 
 ####3. Creation of the Training Set & Training Process
 
